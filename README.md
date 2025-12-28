@@ -1,15 +1,15 @@
-<h1 align="center">👋 Hey, I'm Jeevan Kumar Mamuduri</h1>
-
+<!-- Banner -->
+<h1 align="center">👋 Hi, I'm <span style="color:#f39c12;">Jeevan Kumar Mamuduri</span></h1>
 <p align="center">
-🚀 Senior Infrastructure & DevOps Engineer | AWS | Cloud | SRE | Automation | CI/CD  
+Senior Infrastructure / DevOps Engineer | AWS | Terraform | SRE | Cloud Automation  
 </p>
 
 <p align="center">
-<a href="https://linkedin.com/in/jeevanm84"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin"/></a>
-<a href="https://github.com/jeevanm84"><img src="https://img.shields.io/github/followers/jeevanm84?style=social" /></a>
+  <a href="https://linkedin.com/in/jeevanm84"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge" /></a>
+  <a href="mailto:jeevanm.aws@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" /></a>
+  <a href="https://github.com/jeevanm84"><img src="https://img.shields.io/github/followers/jeevanm84?style=for-the-badge&logo=github" /></a>
 </p>
 
----
 
 ## 🔥 About Me
 
