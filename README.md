@@ -65,6 +65,8 @@ The full repository hierarchy, publication standards, and roadmap are documented
 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Production-oriented e-commerce microservices capstone | Services, containers, AWS, Terraform, CI/CD, architecture and operational documentation |
 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Secure two-AZ AWS web platform with cost-aware and resilience profiles | Reusable Terraform modules, mock tests, OIDC, state protection, manual deployment and cleanup |
 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Immutable-image pipeline from local learning to optional AWS AMIs | Packer, Docker, Terraform, validation, GitHub OIDC and lifecycle controls |
+| [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Local-first Kubernetes platform and production reasoning path | Secure manifests, Kustomize, Kind runtime proof, schema/policy CI, troubleshooting and EKS architecture |
+| [git-command-master-map](https://github.com/jeevanm84/git-command-master-map) | Safety-first Git practice and recovery system | Visual map, isolated sandboxes, conflicts, reflog recovery, bisect and team workflows |
 
 ## Engineering roadmap
 
@@ -72,11 +74,11 @@ Repositories are published only when they contain working technical material, an
 
 | Stage | Repository | Status |
 |---:|---|---|
-| 1 | `git-command-master-map` | In development |
+| 1 | [git-command-master-map](https://github.com/jeevanm84/git-command-master-map) | Published |
 | 2 | `aws-well-architected-production-labs` | Planned |
 | 3 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Published |
 | 4 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Published |
-| 5 | `kubernetes-zero-to-production` | In development |
+| 5 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Published |
 | 6 | `cicd-gitops-platform-engineering` | Planned |
 | 7 | `observability-sre-engineering-lab` | Planned |
 | 8 | `devsecops-software-supply-chain` | Planned |
@@ -134,8 +136,8 @@ The shared documentation contract is available in [Repository Standards](docs/RE
 
 ## Current engineering focus
 
-- Converting technical reference maps into safe, executable learning systems
-- Building Kubernetes failure labs that work locally before optional EKS deployment
+- Extending the portfolio with scenario-driven AWS architecture labs
+- Designing CI/CD, GitOps, observability and SRE repositories around reusable engineering evidence
 - Connecting infrastructure, delivery, observability, security, and incident response into one capstone platform
 - Publishing production reasoning—not only successful deployment steps
 
