@@ -47,7 +47,7 @@ jeevanm84 profile
 ## Learning and evidence flow
 
 ```mermaid
-flowchart LR
+flowchart TB
   Git[Linux and Git] --> AWS[AWS architecture]
   AWS --> TF[Terraform]
   TF --> Images[Docker and Packer]
