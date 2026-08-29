@@ -28,35 +28,18 @@ Primary focus:
 
 ```mermaid
 flowchart TB
-  Profile[GitHub profile<br/>navigation and engineering narrative]
-
-  Profile --> Projects[Career proof<br/>production projects]
-  Profile --> Roadmap[Learning system<br/>foundations to production]
-  Profile --> Knowledge[Engineering knowledge<br/>incidents, interviews, references]
-
-  Projects --> MJ[MjCart microservices]
-  Projects --> TF[Terraform AWS platform]
-  Projects --> PK[Packer image pipeline]
-
-  Roadmap --> Git[Git foundations]
-  Roadmap --> AWS[AWS architecture]
-  Roadmap --> K8s[Kubernetes and platform engineering]
-  Roadmap --> Delivery[CI/CD and GitOps]
-
-  Knowledge --> SRE[Observability and SRE]
-  Knowledge --> Security[DevSecOps]
-  Knowledge --> Incidents[Production troubleshooting]
-  Knowledge --> Interview[Senior engineering interviews]
-
-  MJ --> Proof[Career proof<br/>architecture + code + labs + operations]
-  TF --> Proof
-  PK --> Proof
-  SRE --> Proof
-  Security --> Proof
-  Incidents --> Proof
+  Profile[GitHub engineering portfolio]
+  Profile --> Projects[Flagship production projects<br/>MjCart · Terraform · Packer]
+  Profile --> Roadmap[Learning roadmap<br/>Git · AWS · Kubernetes · CI/CD]
+  Profile --> Knowledge[Engineering knowledge base<br/>SRE · DevSecOps · incidents · interviews]
+  Projects --> Proof[Career proof<br/>architecture · code · diagrams · labs · operations]
+  Roadmap --> Proof
+  Knowledge --> Proof
 ```
 
-The full repository hierarchy, publication standards, and roadmap are documented in [GitHub Engineering Ecosystem](docs/ECOSYSTEM.md).
+The compact diagram is designed to remain readable both inside the README and in GitHub's expanded viewer. The detailed, repository-by-repository hierarchy is available in [GitHub Engineering Ecosystem](docs/ECOSYSTEM.md).
+
+The publication standards are documented in [Repository Standards](docs/REPOSITORY_STANDARDS.md).
 
 ## Featured engineering projects
 
