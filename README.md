@@ -69,8 +69,8 @@ Repositories are published only when they contain working technical material, an
 | 3 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Published |
 | 4 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Published |
 | 5 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Published |
-| 6 | `cicd-gitops-platform-engineering` | Planned |
-| 7 | `observability-sre-engineering-lab` | Planned |
+| 6 | [cicd-gitops-platform-engineering](https://github.com/jeevanm84/cicd-gitops-platform-engineering) | Published |
+| 7 | [observability-sre-engineering-lab](https://github.com/jeevanm84/observability-sre-engineering-lab) | Published |
 | 8 | `devsecops-software-supply-chain` | Planned |
 | 9 | `production-troubleshooting-handbook` | Planned |
 | 10 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
@@ -93,7 +93,7 @@ Linux and Git
 
 | Domain | Technologies and practices |
 |---|---|
-| Cloud | AWS VPC, EC2, Auto Scaling, ALB, RDS, S3, IAM, Systems Manager, CloudWatch |
+| Cloud | AWS, Microsoft Azure, and Google Cloud architecture, identity, networking, compute, data, governance, and observability |
 | Infrastructure as code | Terraform, Packer, CloudFormation, Ansible |
 | Containers and platforms | Docker, Kubernetes, EKS, Helm, GitOps |
 | Delivery | GitHub Actions, Jenkins, GitLab CI, release governance, OIDC |
@@ -126,7 +126,7 @@ The shared documentation contract is available in [Repository Standards](docs/RE
 
 ## Current engineering focus
 
-- Extending the published AWS architecture evidence into delivery, observability, and security systems
+- Expanding the validated AWS portfolio with production-oriented Azure and Google Cloud engineering evidence
 - Designing CI/CD, GitOps, observability and SRE repositories around reusable engineering evidence
 - Connecting infrastructure, delivery, observability, security, and incident response into one capstone platform
 - Publishing production reasoning—not only successful deployment steps
@@ -140,7 +140,7 @@ The shared documentation contract is available in [Repository Standards](docs/RE
 
 ## Connect and collaborate
 
-- Follow [@jeevanm84](https://github.com/jeevanm84) for new AWS, DevOps, platform engineering, and SRE projects.
+- Follow [@jeevanm84](https://github.com/jeevanm84) for multi-cloud, DevOps, platform engineering, and SRE projects.
 - Connect through [LinkedIn](https://linkedin.com/in/jeevanm84).
 - Use repository Discussions for learning questions and Issues for reproducible defects or improvement proposals.
 
