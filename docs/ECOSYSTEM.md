@@ -2,7 +2,7 @@
 
 ## Mission
 
-The `jeevanm84` GitHub account is organized as an engineering portfolio, progressive learning roadmap, operational knowledge base, and evidence library for AWS, DevOps, platform engineering, SRE, and DevSecOps.
+The `jeevanm84` GitHub account is organized as an engineering portfolio, progressive learning roadmap, operational knowledge base, and evidence library for multi-cloud engineering, DevOps, platform engineering, SRE, and DevSecOps.
 
 The objective is not repository volume. The target is approximately 8–12 substantial original repositories that each demonstrate engineering capability, architecture knowledge, reusable automation, production troubleshooting, or durable educational value.
 
@@ -12,10 +12,12 @@ The objective is not repository volume. The target is approximately 8–12 subst
 jeevanm84 profile
 ├── Flagship production project
 │   └── mjcart-ecommerce-microservices
-├── AWS and infrastructure
+├── Multi-cloud architecture and infrastructure
 │   ├── aws-well-architected-production-labs
 │   ├── terraform-aws-ha-web-platform
-│   └── packer-aws-golden-image-pipeline
+│   ├── packer-aws-golden-image-pipeline
+│   ├── Azure production project (publish after validation)
+│   └── Google Cloud production project (publish after validation)
 ├── Platform engineering
 │   ├── kubernetes-zero-to-production
 │   └── cicd-gitops-platform-engineering
