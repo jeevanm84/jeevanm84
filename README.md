@@ -1,4 +1,10 @@
-# jeevanm84 — AWS, DevOps, Platform Engineering & SRE
+<p align="center">
+  <a href="https://github.com/jeevanm84/jeevanm84/blob/main/assets/multi-cloud-devops-sre-banner.png">
+    <img src="assets/multi-cloud-devops-sre-banner.png" alt="jeevanm84 multi-cloud, DevOps, platform engineering and SRE portfolio" width="100%">
+  </a>
+</p>
+
+# jeevanm84 — Multi-Cloud, DevOps, Platform Engineering & SRE
 
 <p align="center">
   <strong>Senior Infrastructure / DevOps Engineer</strong><br>
@@ -17,7 +23,7 @@ Infrastructure, cloud, DevOps, and SRE practitioner with 18+ years of experience
 
 Primary focus:
 
-- AWS cloud and Well-Architected system design
+- Multi-cloud engineering across AWS, Azure, and Google Cloud, with AWS evidence published and Azure/GCP projects expanding
 - Terraform, immutable infrastructure, and platform automation
 - Kubernetes, containers, CI/CD, and GitOps
 - Monitoring, observability, SLOs, and incident response
