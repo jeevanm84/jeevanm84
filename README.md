@@ -1,77 +1,155 @@
-<!-- Banner -->
-<h1 align="center">👋 Hi, I'm <span style="color:#f39c12;">Jeevan Kumar Mamuduri</span></h1>
+# jeevanm84 — AWS, DevOps, Platform Engineering & SRE
+
 <p align="center">
-Senior Infrastructure / DevOps Engineer | AWS | Terraform | SRE | Cloud Automation  
+  <strong>Senior Infrastructure / DevOps Engineer</strong><br>
+  Building reliable cloud platforms, delivery pipelines, infrastructure automation, and production operations guidance.
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/jeevanm84"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge" /></a>
-  <a href="mailto:jeevanm.aws@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" /></a>
-  <a href="https://github.com/jeevanm84"><img src="https://img.shields.io/github/followers/jeevanm84?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/jeevanm84"><img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-jeevanm84-181717?style=for-the-badge&logo=github"></a>
+  <a href="https://linkedin.com/in/jeevanm84"><img alt="LinkedIn profile" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/jeevanm84?style=for-the-badge&logo=github&label=Followers">
 </p>
 
+## Engineering profile
 
-## 🔥 About Me
+Infrastructure, cloud, DevOps, and SRE practitioner with 18+ years of experience across systems engineering, automation, cloud platforms, reliability, and production operations. This profile is an open engineering portfolio: every featured repository is designed to demonstrate working code, architecture decisions, operational trade-offs, troubleshooting, or reusable learning value.
 
-Versatile DevOps engineer with **18+ years experience in Infra, Cloud, SRE & Automation**.  
-I help modernize workloads, automate pipelines & build production-grade systems using  
-**AWS, Terraform, Kubernetes, GitHub Actions, Prometheus, Grafana, Ansible** & more.
+Primary focus:
 
-💡 Passionate about cloud automation, observability, and cost-efficient infra engineering.  
-🎯 I love creating real-time monitoring dashboards, Pipelines & platform automation.
+- AWS cloud and Well-Architected system design
+- Terraform, immutable infrastructure, and platform automation
+- Kubernetes, containers, CI/CD, and GitOps
+- Monitoring, observability, SLOs, and incident response
+- DevSecOps and software supply-chain security
+- Production troubleshooting and cost-conscious engineering
 
----
+## Portfolio architecture
 
-## 🏅 Certifications
+```mermaid
+flowchart TB
+  Profile[GitHub profile<br/>navigation and engineering narrative]
 
-| Certification | Status |
-|---|---|
-| 🟦 AWS Solutions Architect – Associate | ✔ Certified |
-| 🟩 HashiCorp Certified – Terraform Associate | ✔ Certified |
-| 🟥 RedHat Enterprise Linux 7 | ✔ Certified |
-| 🟦 Kubernetes Administrator | ✔ Certified |
-| 🟨 Microsoft Azure Administrator (AZ-104) | ✔ Certified |
-| 🟫 Google Cloud Professional | ✔ Certified |
-| 🟧 Oracle Solaris System Administrator | ✔ Certified |   
+  Profile --> Projects[Career proof<br/>production projects]
+  Profile --> Roadmap[Learning system<br/>foundations to production]
+  Profile --> Knowledge[Engineering knowledge<br/>incidents, interviews, references]
 
----
+  Projects --> MJ[MjCart microservices]
+  Projects --> TF[Terraform AWS platform]
+  Projects --> PK[Packer image pipeline]
 
-## 🛠 Tech Stack
+  Roadmap --> Git[Git foundations]
+  Roadmap --> AWS[AWS architecture]
+  Roadmap --> K8s[Kubernetes and platform engineering]
+  Roadmap --> Delivery[CI/CD and GitOps]
 
-| Cloud & Infra | DevOps & CI/CD | Containers | IaC | Monitoring/Logs |
-|---|---|---|---|---|
-| AWS EC2, VPC, RDS, Lambda, S3 | GitHub Actions, Jenkins | Docker | Terraform | Prometheus |
-| Route53, CloudWatch, IAM | GitLab CI & Rundeck | Kubernetes (EKS) | CloudFormation | Grafana / Loki / ELK |
-| Networking, Load Balancers, VPN | Bash & Python Automation | Helm | Ansible | Alertmanager / Icinga2 |
+  Knowledge --> SRE[Observability and SRE]
+  Knowledge --> Security[DevSecOps]
+  Knowledge --> Incidents[Production troubleshooting]
+  Knowledge --> Interview[Senior engineering interviews]
 
----
+  MJ --> Proof[Career proof<br/>architecture + code + labs + operations]
+  TF --> Proof
+  PK --> Proof
+  SRE --> Proof
+  Security --> Proof
+  Incidents --> Proof
+```
 
-## 🚀 Real Projects
+The full repository hierarchy, publication standards, and roadmap are documented in [GitHub Engineering Ecosystem](docs/ECOSYSTEM.md).
 
-| Project | Description | Stack |
+## Featured engineering projects
+
+| Repository | Engineering outcome | Evidence |
 |---|---|---|
-| 🔹 CloudFormation-Examples | AWS infrastructure templates for provisioning | CFN, AWS |
-| 🔹 Terraform-Associate Repo | Terraform IaC modules & study configs | Terraform, HCL |
-| 🔥 URL Health Monitoring (Live soon) | Prometheus Pushgateway + Slack alerts | Shell, Prometheus, Slack |
-| 🔥 CI/CD Deploy to Lightsail | GitHub Actions → Auto deploy Node.js | Actions, AWS |
-| 🔥 Observability Dashboard Pack | Metrics + Logging + Alerts in Grafana | Prometheus, Grafana |
+| [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Production-oriented e-commerce microservices capstone | Services, containers, AWS, Terraform, CI/CD, architecture and operational documentation |
+| [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Secure two-AZ AWS web platform with cost-aware and resilience profiles | Reusable Terraform modules, mock tests, OIDC, state protection, manual deployment and cleanup |
+| [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Immutable-image pipeline from local learning to optional AWS AMIs | Packer, Docker, Terraform, validation, GitHub OIDC and lifecycle controls |
 
-> New repos you create will automatically strengthen your visibility!
+## Engineering roadmap
 
----
+Repositories are published only when they contain working technical material, an end-to-end guide, validation, security guidance, troubleshooting, and meaningful hands-on exercises.
 
-## 📈 GitHub Analytics
+| Stage | Repository | Status |
+|---:|---|---|
+| 1 | `git-command-master-map` | In development |
+| 2 | `aws-well-architected-production-labs` | Planned |
+| 3 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Published |
+| 4 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Published |
+| 5 | `kubernetes-zero-to-production` | In development |
+| 6 | `cicd-gitops-platform-engineering` | Planned |
+| 7 | `observability-sre-engineering-lab` | Planned |
+| 8 | `devsecops-software-supply-chain` | Planned |
+| 9 | `production-troubleshooting-handbook` | Planned |
+| 10 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
+| Cross-stage | `devops-sre-interview-playbook` | Planned |
+
+```text
+Linux and Git
+  → AWS
+  → Terraform
+  → Docker and Packer
+  → Kubernetes
+  → CI/CD and GitOps
+  → Observability and SRE
+  → DevSecOps
+  → Production troubleshooting
+  → MjCart capstone platform
+```
+
+## Technology stack
+
+| Domain | Technologies and practices |
+|---|---|
+| Cloud | AWS VPC, EC2, Auto Scaling, ALB, RDS, S3, IAM, Systems Manager, CloudWatch |
+| Infrastructure as code | Terraform, Packer, CloudFormation, Ansible |
+| Containers and platforms | Docker, Kubernetes, EKS, Helm, GitOps |
+| Delivery | GitHub Actions, Jenkins, GitLab CI, release governance, OIDC |
+| Observability | Prometheus, Grafana, Loki, ELK, Alertmanager, CloudWatch |
+| Reliability | High availability, SLOs, incident response, capacity and disaster recovery |
+| Security | Least privilege, short-lived identity, secret protection, scanning and supply-chain controls |
+| Automation | Bash, Python, reusable workflows and operational runbooks |
+
+## Architecture and operations portfolio
+
+Each technical project follows a common engineering narrative:
+
+```text
+Problem → Requirements → Architecture → Implementation → Deployment
+→ Security → High Availability → Scalability → Observability
+→ Disaster Recovery → Cost Optimization → Troubleshooting → Lessons Learned
+```
+
+The shared documentation contract is available in [Repository Standards](docs/REPOSITORY_STANDARDS.md).
+
+## Certifications
+
+- AWS Solutions Architect – Associate
+- HashiCorp Certified: Terraform Associate
+- Red Hat Enterprise Linux 7
+- Kubernetes Administrator
+- Microsoft Azure Administrator (AZ-104)
+- Google Cloud Professional certification
+- Oracle Solaris System Administrator
+
+## Current engineering focus
+
+- Converting technical reference maps into safe, executable learning systems
+- Building Kubernetes failure labs that work locally before optional EKS deployment
+- Connecting infrastructure, delivery, observability, security, and incident response into one capstone platform
+- Publishing production reasoning—not only successful deployment steps
+
+## GitHub activity
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=jeevanm84&show_icons=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevanm84&layout=compact" />
-<br>
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=jeevanm84" />
+  <img height="165" alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=jeevanm84&show_icons=true&hide_title=true">
+  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevanm84&layout=compact">
 </p>
 
----
+## Connect and collaborate
 
-## 🐍 Contributions Snake
+- Follow [@jeevanm84](https://github.com/jeevanm84) for new AWS, DevOps, platform engineering, and SRE projects.
+- Connect through [LinkedIn](https://linkedin.com/in/jeevanm84).
+- Use repository Discussions for learning questions and Issues for reproducible defects or improvement proposals.
 
-```md
-![snake gif](https://github.com/jeevanm84/jeevanm84/blob/output/github-contribution-grid-snake.svg)
+Reference forks are retained for study but are intentionally separated from the original engineering portfolio.
