@@ -35,10 +35,12 @@ Primary focus:
 ```mermaid
 flowchart TB
   Profile[GitHub engineering portfolio]
-  Profile --> Projects[Flagship production projects<br/>MjCart · Terraform · Packer]
+  Profile --> Projects[Flagship production projects<br/>MjCart · NutriValue · Terraform · Packer]
+  Profile --> Product[Product engineering<br/>React · FastAPI · data governance]
   Profile --> Roadmap[Learning roadmap<br/>Git · AWS · Kubernetes · CI/CD]
   Profile --> Knowledge[Engineering knowledge base<br/>SRE · DevSecOps · incidents · interviews]
   Projects --> Proof[Career proof<br/>architecture · code · diagrams · labs · operations]
+  Product --> Proof
   Roadmap --> Proof
   Knowledge --> Proof
 ```
@@ -51,6 +53,7 @@ The publication standards are documented in [Repository Standards](docs/REPOSITO
 
 | Repository | Engineering outcome | Evidence |
 |---|---|---|
+| [nutrivalue-enterprise-platform](https://github.com/jeevanm84/nutrivalue-enterprise-platform) | Transparent nutrition intelligence with enterprise data-governance boundaries | React, FastAPI, USDA and Open Food Facts adapters, FDA Daily Value rules, confidence scoring, tests, OIDC and rolling AWS deployment |
 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Production-oriented e-commerce microservices capstone | Services, containers, AWS, Terraform, CI/CD, architecture and operational documentation |
 | [aws-well-architected-production-labs](https://github.com/jeevanm84/aws-well-architected-production-labs) | Scenario-driven AWS architecture and trade-off analysis | Five assessed systems, six-pillar evidence, failure modes, RTO/RPO, cost decisions and interview scenarios |
 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Secure two-AZ AWS web platform with cost-aware and resilience profiles | Reusable Terraform modules, mock tests, OIDC, state protection, manual deployment and cleanup |
@@ -71,9 +74,10 @@ Repositories are published only when they contain working technical material, an
 | 5 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Published |
 | 6 | [cicd-gitops-platform-engineering](https://github.com/jeevanm84/cicd-gitops-platform-engineering) | Published |
 | 7 | [observability-sre-engineering-lab](https://github.com/jeevanm84/observability-sre-engineering-lab) | Published |
-| 8 | `devsecops-software-supply-chain` | Planned |
-| 9 | `production-troubleshooting-handbook` | Planned |
-| 10 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
+| 8 | [nutrivalue-enterprise-platform](https://github.com/jeevanm84/nutrivalue-enterprise-platform) | Published product engineering project |
+| 9 | `devsecops-software-supply-chain` | Planned |
+| 10 | `production-troubleshooting-handbook` | Planned |
+| 11 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
 | Cross-stage | `devops-sre-interview-playbook` | Planned |
 
 ```text
@@ -84,6 +88,7 @@ Linux and Git
   → Kubernetes
   → CI/CD and GitOps
   → Observability and SRE
+  → NutriValue product and data engineering
   → DevSecOps
   → Production troubleshooting
   → MjCart capstone platform
@@ -101,6 +106,7 @@ Linux and Git
 | Reliability | High availability, SLOs, incident response, capacity and disaster recovery |
 | Security | Least privilege, short-lived identity, secret protection, scanning and supply-chain controls |
 | Automation | Bash, Python, reusable workflows and operational runbooks |
+| Application and data | React, FastAPI, REST APIs, provider adapters, validation, provenance and controlled rules engines |
 
 ## Architecture and operations portfolio
 
@@ -129,6 +135,7 @@ The shared documentation contract is available in [Repository Standards](docs/RE
 - Expanding the validated AWS portfolio with production-oriented Azure and Google Cloud engineering evidence
 - Designing CI/CD, GitOps, observability and SRE repositories around reusable engineering evidence
 - Connecting infrastructure, delivery, observability, security, and incident response into one capstone platform
+- Evolving NutriValue from a provider-backed product into a fully observable, Terraform-managed AWS service
 - Publishing production reasoning—not only successful deployment steps
 
 ## GitHub activity
