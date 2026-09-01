@@ -12,6 +12,8 @@ The objective is not repository volume. The target is approximately 8–12 subst
 jeevanm84 profile
 ├── Flagship production project
 │   └── mjcart-ecommerce-microservices
+├── Product and data engineering
+│   └── nutrivalue-enterprise-platform
 ├── Multi-cloud architecture and infrastructure
 │   ├── aws-well-architected-production-labs
 │   ├── terraform-aws-ha-web-platform
@@ -34,6 +36,7 @@ jeevanm84 profile
 
 | Repository | Primary responsibility | Must not become |
 |---|---|---|
+| `nutrivalue-enterprise-platform` | Provider-backed nutrition intelligence, provenance and controlled health insight rules | Untraceable AI-generated medical advice |
 | `mjcart-ecommerce-microservices` | Integrated production-oriented capstone | A disconnected collection of infrastructure examples |
 | `aws-well-architected-production-labs` | Scenario-driven AWS architecture decisions | A service-definition encyclopedia |
 | `terraform-aws-ha-web-platform` | Tested infrastructure-as-code implementation | A copy of Terraform documentation |
@@ -56,6 +59,8 @@ flowchart TB
   Images --> K8s[Kubernetes]
   K8s --> CICD[CI/CD and GitOps]
   CICD --> Obs[Observability and SRE]
+  CICD --> Product[NutriValue product engineering]
+  Product --> Sec[DevSecOps]
   Obs --> Sec[DevSecOps]
   Sec --> Incident[Production troubleshooting]
   Incident --> Capstone[MjCart capstone]
@@ -101,10 +106,10 @@ Original repositories are featured and eligible for profile pins. Forks and exte
 ## Recommended profile pins
 
 1. `mjcart-ecommerce-microservices`
-2. `aws-well-architected-production-labs`
-3. `terraform-aws-ha-web-platform`
-4. `kubernetes-zero-to-production`
-5. `observability-sre-engineering-lab`
-6. `production-troubleshooting-handbook`
+2. `nutrivalue-enterprise-platform`
+3. `aws-well-architected-production-labs`
+4. `terraform-aws-ha-web-platform`
+5. `kubernetes-zero-to-production`
+6. `observability-sre-engineering-lab`
 
 Until planned repositories meet the publication gate, the strongest existing original repositories should occupy those positions.
