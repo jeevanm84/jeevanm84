@@ -17,6 +17,7 @@ jeevanm84 profile
 ├── Multi-cloud architecture and infrastructure
 │   ├── aws-well-architected-production-labs
 │   ├── terraform-aws-ha-web-platform
+│   ├── aws-cloudfront-waf-shield-cdn-security
 │   ├── packer-aws-golden-image-pipeline
 │   ├── Azure production project (publish after validation)
 │   └── Google Cloud production project (publish after validation)
@@ -40,6 +41,7 @@ jeevanm84 profile
 | `mjcart-ecommerce-microservices` | Integrated production-oriented capstone | A disconnected collection of infrastructure examples |
 | `aws-well-architected-production-labs` | Scenario-driven AWS architecture decisions | A service-definition encyclopedia |
 | `terraform-aws-ha-web-platform` | Tested infrastructure-as-code implementation | A copy of Terraform documentation |
+| `aws-cloudfront-waf-shield-cdn-security` | CDN caching and layered edge security (CloudFront, WAF, Shield) | A features list with no request-flow evidence |
 | `packer-aws-golden-image-pipeline` | Immutable image lifecycle and validation | A single untested template |
 | `kubernetes-zero-to-production` | Local-first platform and failure labs | A directory of unexplained YAML |
 | `cicd-gitops-platform-engineering` | Reusable secure delivery and promotion | Vendor-specific screenshots without executable workflows |
@@ -55,7 +57,8 @@ jeevanm84 profile
 flowchart TB
   Git[Linux and Git] --> AWS[AWS architecture]
   AWS --> TF[Terraform]
-  TF --> Images[Docker and Packer]
+  TF --> CDN[CDN and edge security]
+  CDN --> Images[Docker and Packer]
   Images --> K8s[Kubernetes]
   K8s --> CICD[CI/CD and GitOps]
   CICD --> Obs[Observability and SRE]
