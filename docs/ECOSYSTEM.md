@@ -22,6 +22,7 @@ jeevanm84 profile
 │   ├── Azure production project (publish after validation)
 │   └── Google Cloud production project (publish after validation)
 ├── Platform engineering
+│   ├── docker-zero-to-production
 │   ├── kubernetes-zero-to-production
 │   └── cicd-gitops-platform-engineering
 ├── Operations and security
@@ -43,6 +44,7 @@ jeevanm84 profile
 | `terraform-aws-ha-web-platform` | Tested infrastructure-as-code implementation | A copy of Terraform documentation |
 | `aws-cloudfront-waf-shield-cdn-security` | CDN caching and layered edge security (CloudFront, WAF, Shield) | A features list with no request-flow evidence |
 | `packer-aws-golden-image-pipeline` | Immutable image lifecycle and validation | A single untested template |
+| `docker-zero-to-production` | Containerization engineering: Dockerfiles, storage/networking, Compose, and Swarm HA | A copy of Docker CLI reference docs |
 | `kubernetes-zero-to-production` | Local-first platform and failure labs | A directory of unexplained YAML |
 | `cicd-gitops-platform-engineering` | Reusable secure delivery and promotion | Vendor-specific screenshots without executable workflows |
 | `observability-sre-engineering-lab` | Telemetry, SLO, alert and capacity experiments | A dashboard gallery without operational questions |
@@ -58,8 +60,9 @@ flowchart TB
   Git[Linux and Git] --> AWS[AWS architecture]
   AWS --> TF[Terraform]
   TF --> CDN[CDN and edge security]
-  CDN --> Images[Docker and Packer]
-  Images --> K8s[Kubernetes]
+  CDN --> Images[Packer]
+  Images --> Docker[Docker]
+  Docker --> K8s[Kubernetes]
   K8s --> CICD[CI/CD and GitOps]
   CICD --> Obs[Observability and SRE]
   CICD --> Product[NutriValue product engineering]

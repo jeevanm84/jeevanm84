@@ -59,6 +59,7 @@ The publication standards are documented in [Repository Standards](docs/REPOSITO
 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Secure two-AZ AWS web platform with cost-aware and resilience profiles | Reusable Terraform modules, mock tests, OIDC, state protection, manual deployment and cleanup |
 | [aws-cloudfront-waf-shield-cdn-security](https://github.com/jeevanm84/aws-cloudfront-waf-shield-cdn-security) | CDN and edge-security engineering: CloudFront, WAF, and Shield working together | Beginner-to-advanced learning path, three cost-bounded labs, Terraform skeleton, incident-style troubleshooting and interview evidence |
 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Immutable-image pipeline from local learning to optional AWS AMIs | Packer, Docker, Terraform, validation, GitHub OIDC and lifecycle controls |
+| [docker-zero-to-production](https://github.com/jeevanm84/docker-zero-to-production) | Containerization engineering: Dockerfiles, storage/networking, Compose, and Swarm high availability | Layered image builds, multi-stage builds, 7 hands-on labs, a parameterized Jenkins → Docker Hub → Swarm CI/CD pipeline, and security hardening |
 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Local-first Kubernetes platform and production reasoning path | Secure manifests, Kustomize, Kind runtime proof, schema/policy CI, troubleshooting and EKS architecture |
 | [git-command-master-map](https://github.com/jeevanm84/git-command-master-map) | Safety-first Git practice and recovery system | Visual map, isolated sandboxes, conflicts, reflog recovery, bisect and team workflows |
 
@@ -73,13 +74,14 @@ Repositories are published only when they contain working technical material, an
 | 3 | [terraform-aws-ha-web-platform](https://github.com/jeevanm84/terraform-aws-ha-web-platform) | Published |
 | 4 | [aws-cloudfront-waf-shield-cdn-security](https://github.com/jeevanm84/aws-cloudfront-waf-shield-cdn-security) | Published |
 | 5 | [packer-aws-golden-image-pipeline](https://github.com/jeevanm84/packer-aws-golden-image-pipeline) | Published |
-| 6 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Published |
-| 7 | [cicd-gitops-platform-engineering](https://github.com/jeevanm84/cicd-gitops-platform-engineering) | Published |
-| 8 | [observability-sre-engineering-lab](https://github.com/jeevanm84/observability-sre-engineering-lab) | Published |
-| 9 | [nutrivalue-enterprise-platform](https://github.com/jeevanm84/nutrivalue-enterprise-platform) | Published product engineering project |
-| 10 | `devsecops-software-supply-chain` | Planned |
-| 11 | `production-troubleshooting-handbook` | Planned |
-| 12 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
+| 6 | [docker-zero-to-production](https://github.com/jeevanm84/docker-zero-to-production) | Published |
+| 7 | [kubernetes-zero-to-production](https://github.com/jeevanm84/kubernetes-zero-to-production) | Published |
+| 8 | [cicd-gitops-platform-engineering](https://github.com/jeevanm84/cicd-gitops-platform-engineering) | Published |
+| 9 | [observability-sre-engineering-lab](https://github.com/jeevanm84/observability-sre-engineering-lab) | Published |
+| 10 | [nutrivalue-enterprise-platform](https://github.com/jeevanm84/nutrivalue-enterprise-platform) | Published product engineering project |
+| 11 | `devsecops-software-supply-chain` | Planned |
+| 12 | `production-troubleshooting-handbook` | Planned |
+| 13 | [mjcart-ecommerce-microservices](https://github.com/jeevanm84/mjcart-ecommerce-microservices) | Published capstone |
 | Cross-stage | `devops-sre-interview-playbook` | Planned |
 
 ```text
@@ -87,7 +89,8 @@ Linux and Git
   → AWS
   → Terraform
   → CDN and edge security (CloudFront, WAF, Shield)
-  → Docker and Packer
+  → Packer
+  → Docker
   → Kubernetes
   → CI/CD and GitOps
   → Observability and SRE
